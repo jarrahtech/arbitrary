@@ -11,7 +11,7 @@ final class NumericalRecipesRandomGenerator(val seed: Int, init: Boolean = true)
 
   private var inext: Int = 0
   private var inextp: Int = 21
-  private var seedArray: Array[Int] = new Array[Int](seedLength)
+  private var seedArray: Array[Int] = new Array[Int](seedLength) // TODO: doubly mutable - can this be avoided?
 
   if (init) { initRandom }
 

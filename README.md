@@ -8,3 +8,4 @@ Scala library providing random number functionality designed for turn-based simu
 * Test coverage improvement - eg deep copy
 * serialisation so can save
 * example code
+* NumericalRecipesRandomGenerator has doubly mutable member - can this be avoided?

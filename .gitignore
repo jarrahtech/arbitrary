@@ -9,3 +9,4 @@ project/.bloop
 project/project
 project/target
 example.png
+project/metals.sbt

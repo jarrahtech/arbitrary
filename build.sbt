@@ -1,11 +1,11 @@
-ThisBuild / scalaVersion := "3.2.0"
+ThisBuild / scalaVersion := "3.3.4"
 ThisBuild / organization := "com.jarrahtechnology"
 ThisBuild / versionScheme := Some("early-semver")
 
 lazy val root = (project in file("."))
   .settings(
     name := "arbitrary",
-    version := "0.1",
+    version := "0.1.1",
     githubOwner := "jarrahtech",
     githubRepository := "arbitrary",
 
@@ -21,6 +21,6 @@ lazy val root = (project in file("."))
 
     resolvers ++= Resolver.sonatypeOssRepos("public"),
     resolvers += Resolver.githubPackages("jarrahtech"),
-    libraryDependencies += "com.jarrahtechnology" %% "jarrah-util" % "0.2",
+    libraryDependencies += "com.jarrahtechnology" %% "jarrah-util" % "0.7.1",
     libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test",
   )
